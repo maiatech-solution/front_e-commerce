@@ -4,7 +4,7 @@ body{
 
 a {
     text-decoration: none;
-    color: black;
+    color: auto;
 }
 
 #img-cabecalho{
@@ -26,4 +26,13 @@ a {
 
 .titles-page{
     font-family: 'Shadows Into Light', cursive;
+}
+
+.sub-titles-page{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.nav-menu-title:hover{
+    color: rgb(0, 0, 0);
+    border-bottom: 1px solid white;
 }
