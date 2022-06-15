@@ -1,0 +1,14 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#img-cabecalho{
+    width: 100%;
+    height: 270px;
+}
+
+#img-cabecalho img{
+    width: 100%;
+    height: 100%;
+}
