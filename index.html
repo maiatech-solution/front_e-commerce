@@ -9,6 +9,7 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./assets/estilos/index.css">
+    <link rel="stylesheet" href="./assets/estilos/estilos-bt.css">
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
         integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"
         defer></script>
@@ -24,7 +25,7 @@
         <div id="img-cabecalho">
             <img src="./assets/imgs/cabecalho.jpg" class="img-fluid" alt="cabecalho">
         </div>
-        <nav class="navbar navbar-light bg-light container  mt-3 mb-3">
+        <nav class="navbar navbar-light bg-light container rounded-2 mt-3 mb-3">
             <div class="container">
                 <a class="navbar-brand" href="#">Sua logo</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
@@ -61,20 +62,234 @@
         </nav>
     </header>
 
-    <nav class="nav container bg-primary rounded-2 d-flex justify-content-center gap-4 p-2">
+    <nav class="nav container bg-primary rounded-2 d-flex justify-content-center gap-5 p-2 mb-3">
         <a class="text-light active" aria-current="page" href="#">Pizzas</a>
         <a class="text-light" href="#">Lanches</a>
         <a class="text-light" href="#">Batatas</a>
         <a class="text-light" href="#">Combos</a>
-      </nav>
+    </nav>
 
     <section>
 
+        <!-- Pizzas -->
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner container">
+                <div class="carousel-item active container" data-bs-interval="15000ms">
+                    <div class="card-body d-flex flex-row justify-content-around align-items-center">
+                        <div style="width: 60%;">
+                            <h5 class="text-light card-title">Pizza de Calabresa</h5>
+                            <p class="text-light card-text">
+                                Pizza de calabresa - Lorem Ipsum é simplesmente um texto fictício da indústria
+                                tipográfica e de impressão. Lorem Ipsum tem sido o texto fictício padrão da indústria
+                                desde os anos 1500, quando um impressor desconhecido pegou uma cozinha de tipos e
+                                embaralhou-a para fazer um livro de espécimes de tipos. Ele sobreviveu não apenas cinco
+                                séculos, mas também o salto para a composição eletrônica, permanecendo essencialmente
+                                inalterado.
+                            </p>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#staticBackdrop"><i class="bi bi-basket2"></i>
+                                Adicionar ao carrinho
+                                </a>
+                        </div>
+                        <div style="width: auto;">
+                            <img src="./assets/imgs/calabresa.jpg" alt="Pizza de calabresa"
+                                style="width: 15rem; height: 15rem; border-radius: 50%;">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item container" data-bs-interval="15000ms">
+                    <div class="card-body d-flex flex-row justify-content-around align-items-center">
+                        <div style="width: 60%;">
+                            <h5 class="text-light card-title">Pizza Paraense</h5>
+                            <p class="text-light card-text">
+                                Pizza Paraense - Lorem Ipsum é simplesmente um texto fictício da indústria tipográfica e
+                                de impressão. Lorem Ipsum tem sido o texto fictício padrão da indústria desde os anos
+                                1500, quando um impressor desconhecido pegou uma cozinha de tipos e embaralhou-a para
+                                fazer um livro de espécimes de tipos. Ele sobreviveu não apenas cinco séculos, mas
+                                também o salto para a composição eletrônica, permanecendo essencialmente inalterado.
+                            </p>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#staticBackdrop"><i class="bi bi-basket2"></i>
+                                Adicionar ao carrinho
+                                </a>
+                        </div>
+                        <div style="width: auto;">
+                            <img src="./assets/imgs/frango.jpg" alt="..."
+                                style="width: 15rem; height: 15rem; border-radius: 50%;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div class="border-top container"></div>
+        
+        <!-- Lanches -->
+        <div id="carouselExampleControls1" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner container">
+                <div class="carousel-item active container" data-bs-interval="15000ms">
+                    <div class="card-body d-flex flex-row justify-content-around align-items-center">
+                        <div style="width: 60%;">
+                            <h5 class="text-light card-title">Big Mac</h5>
+                            <p class="text-light card-text">
+                                Pizza de calabresa - Lorem Ipsum é simplesmente um texto fictício da indústria
+                                tipográfica e de impressão. Lorem Ipsum tem sido o texto fictício padrão da indústria
+                                desde os anos 1500, quando um impressor desconhecido pegou uma cozinha de tipos e
+                                embaralhou-a para fazer um livro de espécimes de tipos. Ele sobreviveu não apenas cinco
+                                séculos, mas também o salto para a composição eletrônica, permanecendo essencialmente
+                                inalterado.
+                            </p>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#staticBackdrop"><i class="bi bi-basket2"></i>
+                                Adicionar ao carrinho
+                                </a>
+                        </div>
+                        <div style="width: auto;">
+                            <img src="./assets/imgs/bigmac.jpg" alt="Big mac"
+                                style="width: 15rem; height: 15rem; border-radius: 50%;">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item container" data-bs-interval="15000ms">
+                    <div class="card-body d-flex flex-row justify-content-around align-items-center">
+                        <div style="width: 60%;">
+                            <h5 class="text-light card-title">X Burguer</h5>
+                            <p class="text-light card-text">
+                                Pizza Paraense - Lorem Ipsum é simplesmente um texto fictício da indústria tipográfica e
+                                de impressão. Lorem Ipsum tem sido o texto fictício padrão da indústria desde os anos
+                                1500, quando um impressor desconhecido pegou uma cozinha de tipos e embaralhou-a para
+                                fazer um livro de espécimes de tipos. Ele sobreviveu não apenas cinco séculos, mas
+                                também o salto para a composição eletrônica, permanecendo essencialmente inalterado.
+                            </p>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#staticBackdrop"><i class="bi bi-basket2"></i>
+                                Adicionar ao carrinho
+                                </a>
+                        </div>
+                        <div style="width: auto;">
+                            <img src="./assets/imgs/burger-x.png" alt="..."
+                                style="width: 15rem; height: 15rem; border-radius: 50%;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls1"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls1"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div class="border-top container"></div>
+
+        <!-- Batatas -->
+        <div id="carouselExampleControls2" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner container">
+                <div class="carousel-item active container" data-bs-interval="15000ms">
+                    <div class="card-body d-flex flex-row justify-content-around align-items-center">
+                        <div style="width: 60%;">
+                            <h5 class="text-light card-title">Batata Tradicional</h5>
+                            <p class="text-light card-text">
+                                Pizza de calabresa - Lorem Ipsum é simplesmente um texto fictício da indústria
+                                tipográfica e de impressão. Lorem Ipsum tem sido o texto fictício padrão da indústria
+                                desde os anos 1500, quando um impressor desconhecido pegou uma cozinha de tipos e
+                                embaralhou-a para fazer um livro de espécimes de tipos. Ele sobreviveu não apenas cinco
+                                séculos, mas também o salto para a composição eletrônica, permanecendo essencialmente
+                                inalterado.
+                            </p>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#staticBackdrop"><i class="bi bi-basket2"></i>
+                                Adicionar ao carrinho
+                                </a>
+                        </div>
+                        <div style="width: auto;">
+                            <img src="./assets/imgs/batata_tradicional.jpg" alt="Big mac"
+                                style="width: 15rem; height: 15rem; border-radius: 50%;">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item container" data-bs-interval="15000ms">
+                    <div class="card-body d-flex flex-row justify-content-around align-items-center">
+                        <div style="width: 60%;">
+                            <h5 class="text-light card-title">Batata com cheddar</h5>
+                            <p class="text-light card-text">
+                                Pizza Paraense - Lorem Ipsum é simplesmente um texto fictício da indústria tipográfica e
+                                de impressão. Lorem Ipsum tem sido o texto fictício padrão da indústria desde os anos
+                                1500, quando um impressor desconhecido pegou uma cozinha de tipos e embaralhou-a para
+                                fazer um livro de espécimes de tipos. Ele sobreviveu não apenas cinco séculos, mas
+                                também o salto para a composição eletrônica, permanecendo essencialmente inalterado.
+                            </p>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#staticBackdrop"><i class="bi bi-basket2"></i>
+                                Adicionar ao carrinho
+                                </a>
+                        </div>
+                        <div style="width: auto;">
+                            <img src="./assets/imgs/batata_cheddar.jpg" alt="..."
+                                style="width: 15rem; height: 15rem; border-radius: 50%;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls2"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div class="container d-flex justify-content-center ">
+            <button class="btn btn-success mb-3 ">Finalizar!</button>
+        </div>
     </section>
 
 
-    <footer>
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Nome do produto</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <label for="qntd">Quantidade: </label>
+                    <input type="number" name="qntd" id="qntd" class="border">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Continuar comprando</button>
+                    <button type="button" class="btn btn-primary">Finalizar</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
+
+    <footer>
+        <div class="container-fluid bg-light p-3 text-center">
+            &copy; Todos os direitos reservados.
+        </div>
     </footer>
 
 </body>

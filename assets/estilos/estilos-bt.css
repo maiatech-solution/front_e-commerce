@@ -1,0 +1,8 @@
+.offcanvas-end {
+    top: 0;
+    right: 0;
+    width: 400px;
+    border-left: 1pxsolidrgba(0,0,0,.2);
+    transform: translateX(100%);
+    transition: 1s;
+}
